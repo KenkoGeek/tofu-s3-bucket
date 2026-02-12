@@ -9,6 +9,7 @@ resource "aws_s3_bucket" "this" {
     Name       = var.bucket_name
     ManagedBy = "opentofu"
     Project   = "brainy"
+    Platform  = "brainy-forge"
   }
 }
 
