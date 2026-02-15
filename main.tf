@@ -11,6 +11,7 @@ resource "aws_s3_bucket" "this" {
     Project     = "brainy"
     Platform    = "brainy-forge"
     Environment = "develop"
+    GitOps      = "true"
   }
 }
 
